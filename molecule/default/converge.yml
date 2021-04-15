@@ -4,4 +4,4 @@
   tasks:
     - name: "Include kvm"
       include_role:
-        name: "kvm"
+        name: "ansible-role-kvm"

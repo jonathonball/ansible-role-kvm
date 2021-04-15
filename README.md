@@ -1,5 +1,6 @@
 # Ansible Role: kvm
 
+[![Build Status](https://travis-ci.org/jonathonball/ansible-role-kvm.svg?branch=main)](https://travis-ci.org/jonathonball/ansible-role-kvm)
 
 ## Requirements
 

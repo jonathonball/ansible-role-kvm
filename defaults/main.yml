@@ -1,0 +1,7 @@
+---
+# defaults file for kvm
+
+kvm_packages:
+  - qemu-kvm
+  - libvirt-daemon-system
+

@@ -1,0 +1,7 @@
+---
+# tasks file for kvm
+
+- name: Install dependencies
+  apt:
+    name: "kvm_packages"
+    state: present

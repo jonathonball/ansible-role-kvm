@@ -1,6 +1,7 @@
 galaxy_info:
   author: Jon Ball
   description: Installs kvm
+  role_name: kvm
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value

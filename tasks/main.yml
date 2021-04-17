@@ -6,7 +6,7 @@
     name: '{{ kvm_packages }}'
     state: present
 
-- name: Create ansible users
+- name: Create libvirt/kvm users
   ansible.builtin.user:
     name: '{{ kvm_user }}'
     groups: libvirt,kvm

@@ -5,3 +5,5 @@ kvm_packages:
   - qemu-kvm
   - libvirt-daemon-system
   - bridge-utils
+
+kvm_user: kvm-user

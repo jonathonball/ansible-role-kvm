@@ -8,7 +8,7 @@ See `requirements.txt`.
 
 ## Role Variables
 
-None
+- `kvm_user` user permitted to run kvm tasks on target hosts
 
 ## Dependencies
 

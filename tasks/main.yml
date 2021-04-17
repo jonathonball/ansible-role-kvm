@@ -11,7 +11,7 @@
     name: '{{ kvm_user }}'
     groups: libvirt,kvm
 
-- name: Start ansible service
+- name: Start libvirt service
   ansible.builtin.service:
     name: libvirtd.service
     state: started

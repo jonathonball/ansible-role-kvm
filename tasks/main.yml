@@ -2,6 +2,6 @@
 # tasks file for kvm
 
 - name: Install dependencies
-  apt:
+  ansible.builtin.apt:
     name: '{{ kvm_packages }}'
     state: present

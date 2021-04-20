@@ -5,5 +5,6 @@ kvm_packages:
   - qemu-kvm
   - libvirt-daemon-system
   - bridge-utils
+  - cloud-guest-utils
 
 kvm_user: kvm-user

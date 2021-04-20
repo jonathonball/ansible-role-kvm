@@ -1,6 +1,13 @@
 ---
 # tasks file for kvm
 
+- name: Expand root partition
+  lvol:
+    vg: ubuntu-vg
+    lv: ubuntu-lv
+    size: 100%
+    resizefs: true
+
 - name: Install dependencies
   ansible.builtin.apt:
     name: '{{ kvm_packages }}'

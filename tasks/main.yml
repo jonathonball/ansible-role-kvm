@@ -6,6 +6,12 @@
     name: '{{ kvm_packages }}'
     state: present
 
+- name: Install multipass
+  community.general.snap:
+    name: multipass
+    classic: true
+    state: present
+
 - name: Create libvirt/kvm users
   ansible.builtin.user:
     name: '{{ kvm_user }}'

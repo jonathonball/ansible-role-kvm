@@ -5,7 +5,7 @@
   lvol:
     vg: ubuntu-vg
     lv: ubuntu-lv
-    size: 100%
+    size: 100%PVS
     resizefs: true
 
 - name: Install dependencies

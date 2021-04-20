@@ -2,7 +2,7 @@
 # tasks file for kvm
 
 - name: Expand root partition
-  lvol:
+  community.general.lvol:
     vg: ubuntu-vg
     lv: ubuntu-lv
     size: 100%PVS
